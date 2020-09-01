@@ -29,10 +29,10 @@ console.log(String.prototype.reverseString("ibnu"))
 
 Number.prototype.isPrima = function(n){
     if (n % 2 == 0){
-        console.log("nilai yang anda masukan bukanlah bilangan prima")
+        console.log(false)
     }
         else{
-            console.log("nilai yang anda masukan adalah bilangan prima")
+            console.log(true)
         }
 }
 
